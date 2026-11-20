@@ -7,7 +7,7 @@ implementation has been reviewed yet.
 
 | Project | Status | Milestone | Completed | Outstanding | Defects / test evidence | Deployment | Next action |
 |---|---|---|---|---|---|---|---|
-| 41 AlgorithmUniverse | In progress | Functional browser MVP | Requirements, initial architecture, Bubble/Selection/Insertion step engine, browser controls, Node test suite, CI workflow | Keyboard/accessibility review, browser review, project split | Node tests: 6 passed; `node --check` passed for both source modules; browser E2E not run | Local static web app only | Review interface accessibility and initialize project Git history |
+| 41 AlgorithmUniverse | In progress | Functional browser MVP | Requirements, initial architecture, Bubble/Selection/Insertion step engine, browser controls, Node test suite, root GitHub Actions workflow | Keyboard/accessibility review, browser review, project split | Node tests: 6 passed; `node --check` passed for both source modules; remote CI and browser E2E not yet confirmed | Local static web app; central index public | Review accessibility, verify remote CI, then split project repository |
 
 ## Wave queue
 
@@ -25,4 +25,5 @@ implementation has been reviewed yet.
 - GitHub account detected from existing repository listing: `Yamza786`.
 - Existing repositories were left untouched; see session audit before any remote
   creation.
-- This workspace has not yet been published to GitHub.
+- Central repository `Yamza786/IT-Projects-Portfolio` was created public and
+  pushed on `main`; individual project repositories have not yet been created.
